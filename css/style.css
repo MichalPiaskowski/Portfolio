@@ -1,0 +1,263 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #777;
+}
+
+/* General styles */
+section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+a.btn {
+    padding: 1rem 1rem;
+    border: 1px solid #007bff;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+a.btn:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #007bff;
+    width: 5rem;
+    margin: 0 auto;
+}
+
+/* Main header */
+header.main-header {
+    position: relative;
+    height: 45rem;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.main-header-content {
+    padding-top: 15rem;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.main-header-content h1 {
+    margin: 0 auto;
+    font-size: 5rem;
+    color: #007bff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.main-header-content p {
+    margin: 3rem auto 4rem;
+    font-size: 1.6rem;
+}
+
+div.main-header-content p span {
+    color: #007bff;
+}
+
+/* Navigation */
+
+nav.main-nav {
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    background-color: #007bff;
+    z-index: 1;
+}
+
+nav.main-nav ul {
+    text-align: center;
+    font-size: 0rem;
+}
+
+nav.main-nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav.main-nav li a {
+    display: block;
+    padding: 0 3rem;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    line-height: 5rem;
+    text-transform: uppercase;
+    transition: 0.5s linear;
+}
+
+nav.main-nav li a:hover {
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Section about me */
+
+div.container-about-me {
+    width: 40%;
+}
+
+div.container-about-me figure {
+    padding: 5rem 0 3rem;
+}
+
+div.container-about-me figure img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+div.container-about-me p {
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+/* Section portfolio */
+
+section#portfolio {
+    background-color: #f2f1ed;
+}
+
+
+div.container-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 5rem;
+    max-width: 1170px;
+}
+
+
+
+div.container-gallery figure {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    font-size: 0;
+}
+
+div.container-gallery figure img {
+    width: 100%;
+}
+
+div.container-gallery figure figcaption {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+div.container-gallery figure figcaption a {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-top: 100%;
+    padding-bottom: 100%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #007bff;
+    opacity: 0;
+    transition: 0.5s linear;
+    text-decoration: none;
+}
+
+div.container-gallery figure figcaption a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* Contact */
+
+div.container-contact {
+    width: 50%;
+}
+
+div.container-contact form {
+    padding: 5rem 0 3rem 0;
+    font-size: 0;
+}
+
+div.container-contact form input {
+    display: inline-block;
+    width: 45%;
+    height: 3rem;
+    margin: 0 0 2rem 2.5%;
+    font-size: 1.2rem;
+}
+
+div.container-contact form textarea {
+    display: block;
+    width: 92.5%;
+    margin: 0 2.5% 5rem 5%;
+    font-size: 1.2rem;
+}
+
+div.container-contact div.icons-contact {
+    margin: 2rem auto;
+    font-size: 3rem;
+    color: #007bff;
+}
+
+div.container-contact div.icons-contact i {
+    margin-right: 2rem;
+}
+
+::placeholder {
+    padding: 5px 0 0 20px;
+}
+
+/* footer */
+
+footer {
+    height: 10vh;
+    background-color: #f2f1ed;
+}
+
+footer p {
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 10vh;
+}
