@@ -1,0 +1,20 @@
+1. Tworzymy repozytorium kodu
+
+2. Tworzymy w repozytorium strukturę katalogów projektu
+
+3. W pliku HTML w sekcji HEAD dodajemy:
+    - plik normalize.css - https://necolas.github.io/normalize.css/
+    - dodajemy czcionki - np. Google Fonts - https://fonts.google.com/
+    - dodajemy ikonki - np. Font Awesome - https://fontawesome.com/
+    
+4. Tworzymy strukturę strony - przeważnie od góry - w przypadku naszej strony po koleji:
+    - Header (Nagłówek)
+    - Nawigacja - MENU
+    - Sekcja "O mnie"
+    - Sekcja "Portfolio"
+    - Sekcja "Kontakt"
+    - Footer (Stopka)
+    
+5. Następnie podpinamy własne style np. css/style.css i stylujemy od góry każdą sekcję (analogicznie jak w punkcie powyżej)
+
+6. Na końcu stylujemy "Responsywność" projektu (dopasowanie do urządzeń mobilnych) - jeśli oczywiście projekt to przewiduje
