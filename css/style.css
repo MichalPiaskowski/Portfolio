@@ -259,7 +259,7 @@ div.container-contact div.icons-contact {
 }
 
 div.container-contact div.icons-contact i {
-    margin-right: 2rem;
+    margin: 0 1rem 0 1rem;
 }
 
 ::placeholder {
@@ -302,10 +302,6 @@ footer p {
         width: 50%;
     }
 
-    div.container-gallery figure img {
-        width: 100%;
-    }
-
     /* Section Contact */
     div.container-contact form {
         width: 70vw;
@@ -324,6 +320,43 @@ footer p {
 
     div.container-contact form textarea {
         font-size: 1.3rem;
+    }
+}
+
+/* @mediaQuery 768-982 */
+
+@media (max-width: 768px) {
+
+    /* Section General */
+    html {
+        font-size: 12px;
+    }
+
+    /* Section About Me */
+    div.container-about-me figure {
+        width: 80%;
+    }
+
+    div.container-about-me figure img {
+        width: 90%;
+    }
+
+    div.container-about-me p {
+        width: 90%;
+    }
+
+    /* Section Portfolio */
+    div.container-gallery {
+        max-width: 90vw;
+    }
+
+    div.container-gallery figure {
+        width: 100%;
+    }
+
+    /* Section Contact */
+    div.container-contact form {
+        width: 90vw;
     }
 
 }
