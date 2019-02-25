@@ -221,16 +221,21 @@ div.container-contact form {
 
 div.container-contact form input {
     display: inline-block;
-    width: 45%;
+    width: 47.5%;
     height: 3rem;
-    margin: 0 0 2rem 2.5%;
+    margin-bottom: 1rem;
     font-size: 1.2rem;
 }
 
+div.container-contact form input#input-name {
+    margin-right: 5%;
+}
+
+
 div.container-contact form textarea {
     display: block;
-    width: 92.5%;
-    margin: 0 2.5% 5rem 5%;
+    width: 100%;
+    margin-bottom: 3rem;
     font-size: 1.2rem;
 }
 
