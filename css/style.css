@@ -12,8 +12,9 @@ html {
 }
 
 /* General styles */
-section {
-    padding: 100px 0;
+section,
+header {
+    padding: 10vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,15 +57,15 @@ hr {
 /* Main header */
 header.main-header {
     position: relative;
-    height: 45rem;
+    height: 70vh;
+    min-height: 35rem;
     background-image: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
 }
 
 div.main-header-content {
-    padding-top: 15rem;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -127,7 +128,12 @@ nav.main-nav li a:hover {
 /* Section about me */
 
 div.container-about-me {
-    width: 40%;
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 div.container-about-me figure {
@@ -136,10 +142,11 @@ div.container-about-me figure {
 
 div.container-about-me figure img {
     border-radius: 50%;
-    width: 60%;
+    width: 70%;
 }
 
 div.container-about-me p {
+    width: 50%;
     padding-bottom: 3rem;
     font-size: 1.2rem;
 }
@@ -211,10 +218,15 @@ div.container-gallery figure figcaption a:hover {
 /* Contact */
 
 div.container-contact {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 div.container-contact form {
+    width: 40vw;
     padding: 5rem 0 3rem 0;
     font-size: 0;
 }
@@ -233,7 +245,8 @@ div.container-contact form input#input-name {
 
 
 div.container-contact form textarea {
-    display: block;
+    /* display: block; */
+    padding-top: 0.5rem;
     width: 100%;
     margin-bottom: 3rem;
     font-size: 1.2rem;
@@ -250,7 +263,7 @@ div.container-contact div.icons-contact i {
 }
 
 ::placeholder {
-    padding: 5px 0 0 20px;
+    padding-left: 1.5rem;
 }
 
 /* footer */
