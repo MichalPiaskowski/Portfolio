@@ -420,44 +420,44 @@ footer p {
     nav.main-nav li a:hover {
         background-color: #fff;
         color: #007bff;
-        cursor: pointer; */
-}
+        cursor: pointer; 
+    } */
 
-/* Section About Me */
-div.container-about-me figure img {
-    width: 60%;
-}
+    /* Section About Me */
+    div.container-about-me figure img {
+        width: 60%;
+    }
 
-div.container-about-me p {
-    width: 90%;
-}
+    div.container-about-me p {
+        width: 90%;
+    }
 
-/* Section Portfolio */
-div.container-gallery {
-    max-width: 90vw;
-}
+    /* Section Portfolio */
+    div.container-gallery {
+        max-width: 90vw;
+    }
 
-div.container-gallery figure {
-    width: 100%;
-}
+    div.container-gallery figure {
+        width: 100%;
+    }
 
-/* Section Contact */
-div.container-contact form {
-    width: 90vw;
-}
+    /* Section Contact */
+    div.container-contact form {
+        width: 90vw;
+    }
 
-div.container-contact form input {
-    width: 100%;
-    height: 3.5rem;
-    font-size: 1.4rem;
-}
+    div.container-contact form input {
+        width: 100%;
+        height: 3.5rem;
+        font-size: 1.4rem;
+    }
 
-div.container-contact form input#input-name {
-    margin-right: 0;
-}
+    div.container-contact form input#input-name {
+        margin-right: 0;
+    }
 
-div.container-contact form textarea {
-    font-size: 1.4rem;
-}
+    div.container-contact form textarea {
+        font-size: 1.4rem;
+    }
 
 }
